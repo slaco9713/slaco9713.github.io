@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area:hd;
+    color: rgb(31, 31, 31);
+    font-size: 100%;
+    border-radius: 2px;
+    font-family: 'Amatic SC';
+    max-height: 20vh;
+    margin: 20px;
+}
+.header > img {
+    height: 15vh;
+}
+.header > img:hover{
+    transform: scale(1, 1) rotate(10deg);
+}
+.header img {
+    margin-right: 1em;
+}
+#back-button > img{
+    height: 5vh;
+}

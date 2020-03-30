@@ -1,0 +1,32 @@
+.sidebar {
+    grid-area: "sd";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Lucida Console";
+    color: rgb(49, 71, 75);
+    padding: 10px;
+}
+.sidebar > img {
+    height: 100px;
+    border-radius: 60%;
+    align-self: center;
+}
+.sidebar h2 {
+    align-self: center;
+}
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+ul {
+    margin-left: 5%;
+    margin-top: 20%;
+    list-style-type: circle;
+    overflow-wrap: break-word;
+}
+input {
+    font-family: "Lucida Console";
+}

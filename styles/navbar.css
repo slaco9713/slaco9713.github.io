@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-area: nav;
+    background-color: whitesmoke;
+    font-family: 'Lucida Console';
+    font-size: 1.2vw;
+}
+
+.navlink {
+    color: rgb(87, 87, 87);
+}
+
+.navlink:visited{
+    color: rgb(172, 172, 172);
+}

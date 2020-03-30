@@ -1,0 +1,63 @@
+/* polaroid style card: */
+@media screen and (min-width:1120px){
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 500px;
+        max-width: 600px;
+        background-color: whitesmoke;
+        border-radius: 2px;
+        font-size: 2em;
+        text-align: center;
+    } 
+    .card img{
+        margin: 2%;
+        width: 96%;
+        height: 70%;
+    }
+    .card:nth-of-type(2n+1) {
+        transform: scale(0.8, 0.8) rotate(5deg);
+        transition: all 0.35s;
+    }
+    .card:nth-of-type(2n) {
+        transform: scale(0.8, 0.8) rotate(-5deg);
+        transition: all 0.35s;
+    }
+}
+/* horizontal card:  */
+@media screen and (max-width:1119px){
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px;
+        height: 300px;
+        width: 99.5%;
+        font-size: 3vw;
+        line-height: 2em;
+        background-color: white;
+        border-radius: 2px;
+    } 
+    .card img{
+        margin: 2%;
+        min-width: 60%;
+        max-width:60%;
+        min-height:90%;
+        max-height: 90%;
+    }
+}
+
+/*general*/
+.card {
+    grid-area: main;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(90, 15, 97);
+    box-shadow: 5px 4px 8px 1px rgb(190, 142, 187);
+}
+.card:hover{
+    box-shadow: 10px 8px 16px 2px rgb(148, 207, 174);
+    cursor: pointer;
+    transform: scale(1.01, 1);
+    transition: all 0.20s;
+}
