@@ -28,6 +28,8 @@ h2 {
     "hd hd hd hd hd hd hd"
     "nav nav nav nav nav nav nav"
     "main main main main main main main";
+
+    min-width: 800px;
 }
 
 .blogcontainer {
@@ -37,6 +39,8 @@ h2 {
     "hd hd hd hd hd hd hd"
     "main main main main main main sd "
     "ft ft ft ft ft ft sd";
+
+    min-width: 1000px;
 }
 
 .box {
@@ -44,6 +48,12 @@ h2 {
     box-shadow: 10px 8px 16px 2px  rgb(134, 134, 134);
 }
 
+.img-with-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: flex-start; */
+}
 .content {
     display: flex;
     flex-direction: row;
@@ -52,29 +62,24 @@ h2 {
     grid-area: main;
 }
 
-figure {
-    display: inline-block;
-    border: 1px dotted gray;
-    margin: 20px;
-}
-figure img {
-    vertical-align: top;
-}
-figure figcaption {
-    border: 1px dotted blue;
-    text-align: center;
+section {
+    display:flex;
+    flex-direction: row;
+    font-family: "Raleway";
+    font-size: 1.2em;
+    margin: 10px;
 }
 
 section img {
-    width: 25%;
+    width: 30vw;
+    min-width: 300px;
     float: left;
-    padding: 5px;
+    margin: 4px 10px 0px 0px;
+
 }
 
-p {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: "Raleway";
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 4px;
 }
