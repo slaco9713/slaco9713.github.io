@@ -29,7 +29,6 @@ h2 {
     "nav nav nav nav nav nav nav"
     "main main main main main main main";
     min-width: 800px;
-    /* min-width: 260px; */
 }
 
 .blogcontainer {
@@ -39,12 +38,9 @@ h2 {
     "hd hd hd hd hd hd hd"
     "main main main main main main sd "
     "ft ft ft ft ft ft sd";
-
-    /* min-width: 1000px; */
 }
 
 .box {
-    margin: 10px;
     box-shadow: 10px 8px 16px 2px  rgb(134, 134, 134);
 }
 
@@ -60,34 +56,22 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     grid-area: main;
-    min-width: 150px;    
 }
 
 section {
-    /* display:flex;
-    flex-direction: column;
-    align-items: center; */
     font-family: "Raleway";
     font-size: 1.2em;
-    /* margin: 100px; */
-    /* margin-left: 50px;
-    margin-right:50px;
-    margin-top:20px;
-    margin-bottom: 5px; */
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 2%;
     text-align: justify;
 }
 
 section img {
-    /* width: 30vw; */
     width: 70vw;
     min-width: 500px;
     align-self: center;
-    margin: 4px 10px 0px 0px;
-
 }
 
 figcaption {
@@ -96,16 +80,11 @@ figcaption {
     margin-top: 4px;
     align-self: center;
 }
-@media screen and (min-width: 1024px)
-{
+
+@media screen and (min-width: 1024px) {
     section img {
         max-width: 750px;
     }
-    /* section {
-        margin-left: 150px;
-        margin-right: 150px;
-        overflow: hidden;
-    } */
 }
 @media screen and (max-width: 1024px) {
     .blogcontainer {
@@ -115,6 +94,4 @@ figcaption {
         "sd sd sd sd sd sd sd"
         "ft ft ft ft ft ft ft";
     }
-   
-
 }

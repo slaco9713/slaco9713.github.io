@@ -2,23 +2,24 @@
     grid-area: "sd";
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     font-family: "Lucida Console";
     color: rgb(49, 71, 75);
     padding: 10px;
 }
-.sidebar > img {
+.sidebar  img {
     height: 100px;
     border-radius: 60%;
     align-self: center;
 }
-.sidebar > h2 {
-    align-self: center;
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #subscribe {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-top: 20%;
 }
 ul {
@@ -34,5 +35,20 @@ input {
 @media screen and (max-width: 1024px) {
     .sidebar {
         flex-direction: row;
+        margin-left: 20px;
+        width: 90vw;
+        justify-content: center;
     }
+
+    #subscribe , ul {
+        margin: 60px 0px 30px 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    .sidebar {
+        flex-direction: row;
+        margin-left: 20px;
+        min-width: 500px;
+        /* justify-content: center; */
+      }
 }

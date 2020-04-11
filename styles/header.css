@@ -9,7 +9,7 @@
     border-radius: 2px;
     font-family: 'Amatic SC';
     min-height: 120px;
-    margin: 20px;
+    /* margin: 20px; */
 }
 .header > img {
     height: 100px;
