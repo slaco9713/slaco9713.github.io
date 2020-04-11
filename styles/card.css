@@ -46,6 +46,11 @@
         max-height: 75%;
     }
 }
+@media screen and (max-width:380px) {
+    .card {
+        font-size: 14px;
+    }
+}
 
 /*general*/
 .card {
