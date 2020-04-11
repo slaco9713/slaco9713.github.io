@@ -12,7 +12,7 @@
     border-radius: 60%;
     align-self: center;
 }
-.sidebar h2 {
+.sidebar > h2 {
     align-self: center;
 }
 #subscribe {
@@ -29,4 +29,10 @@ ul {
 }
 input {
     font-family: "Lucida Console";
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        flex-direction: row;
+    }
 }
